@@ -1,3 +1,3 @@
 class Payroll < ActiveRecord::Base
-  scope :ordered, -> { order(starts_at: :asc) }
+  scope :ordered, -> { order(starts_at: :desc) }
 end
